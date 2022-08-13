@@ -30,7 +30,7 @@ def figure_3a():
     ax.set_xlim(0, 35)
     ax.set_ylim(80, 225)
     # labelling axis
-    ax.set_xlabel('$\\frac{Z}\\mathrm{d}_l}$')
+    ax.set_xlabel('$\\frac{Z}{\\mathrm{d}_l}$')
     ax.set_ylabel('$D_{3,2} (\\mu m)$')
     ax.legend(fontsize=7, frameon=False)
     fig.set_size_inches(2.5, 2.5)
@@ -85,7 +85,7 @@ def figure_5a():
     ax.set_xlim(20, 140)
     ax.set_ylim(120, 205)
     # labelling axis
-    ax.set_xlabel('$\\frac{Z}\\mathrm{d}_l}$')
+    ax.set_xlabel('$\\frac{Z}{\\mathrm{d}_l}$')
     ax.set_ylabel('$D_{3,2} (\\mu m)$')
     ax.legend(fontsize=7, frameon=False)
     fig.set_size_inches(2.5, 2.5)
