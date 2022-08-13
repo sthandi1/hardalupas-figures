@@ -202,3 +202,32 @@ def figure_12a():
     ax.legend(fontsize=7, frameon=False)
     fig.set_size_inches(2.5, 2.5)
     fig.savefig('hardalupas_figure12a.pgf', bbox_inches='tight')
+
+
+def figure_12b():
+    # loading files
+    line_1 = np.loadtxt('12b/12b_no_recess.csv',
+                        delimiter=',')
+    line_2 = np.loadtxt('12b/12b_2_recess.csv',
+                        delimiter=',')
+    line_3 = np.loadtxt('12b/12b_3_recess.csv',
+                        delimiter=',')
+
+    # setting up plots
+    fig, ax = plt.subplots()
+    ax.plot(line_1[:, 0], line_1[:, 1], color='black', marker='o',
+            label='no recess')
+    ax.plot(line_2[:, 0], line_2[:, 1], color='black', marker='^',
+            label='recess=$2d_\\mathrm{l}$')
+    ax.plot(line_3[:, 0], line_3[:, 1], color='black', marker='s',
+            label='recess=$3d_\\mathrm{l}$')
+
+    # setting axis limits
+    ax.set_xlim(0, 150)
+    ax.set_ylim(120, 180)
+    # labelling axis
+    ax.set_xlabel('$\\frac{Z}{\\mathrm{d}_l}$')
+    ax.set_ylabel('$D_{3,2} (\\mu m)$')
+    ax.legend(fontsize=7, frameon=False)
+    fig.set_size_inches(2.5, 2.5)
+    fig.savefig('hardalupas_figure12b.pgf', bbox_inches='tight')
