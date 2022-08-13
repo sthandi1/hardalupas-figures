@@ -53,6 +53,8 @@ def figure_3b():
             label='$\\mathrm{d}_l=1.1$mm, We=1700, VR=14.1')
     ax.plot(line_2[:, 0], line_2[:, 1], color='black', marker='o',
             label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
+    ax.plot(line_3[:, 0], line_3[:, 1], color='black', marker='o',
+            label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
 
     # setting axis limits
     ax.set_xlim(0, 35)
