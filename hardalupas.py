@@ -66,9 +66,10 @@ def figure_3b():
     fig.set_size_inches(2.5, 2.5)
     fig.savefig('hardalupas_figure3b.pgf', bbox_inches='tight')
 
+
 def figure_5a():
     # loading files
-    line_1 = np.loadtxt('5a/5a_convergin.csv',
+    line_1 = np.loadtxt('5a/5a_converging.csv',
                         delimiter=',')
     line_2 = np.loadtxt('5a/5a_straight.csv',
                         delimiter=',')
@@ -76,16 +77,16 @@ def figure_5a():
     # setting up plots
     fig, ax = plt.subplots()
     ax.plot(line_1[:, 0], line_1[:, 1], color='black', marker='^',
-            label='$\\mathrm{d}_l=1.1$mm, We=1700, VR=14.1')
+            label='converging exit')
     ax.plot(line_2[:, 0], line_2[:, 1], color='black', marker='o',
-            label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
+            label='straight exit')
 
     # setting axis limits
-    ax.set_xlim(0, 35)
-    ax.set_ylim(80, 225)
+    ax.set_xlim(20, 140)
+    ax.set_ylim(120, 205)
     # labelling axis
     ax.set_xlabel('$\\frac{Z}\\mathrm{d}_l}$')
     ax.set_ylabel('$D_{3,2} (\\mu m)$')
     ax.legend(fontsize=7, frameon=False)
     fig.set_size_inches(2.5, 2.5)
-    fig.savefig('hardalupas_figure3a.pgf', bbox_inches='tight')
+    fig.savefig('hardalupas_figure5a.pgf', bbox_inches='tight')
