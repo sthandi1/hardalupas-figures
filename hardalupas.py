@@ -62,7 +62,7 @@ def figure_3b():
     # labelling axis
     ax.set_xlabel('$\\frac{Z}{\mathrm{d}_l}$')
     ax.set_ylabel('$D_{3,2} (\\mu m)$')
-    ax.legend(loc='best', fontsize=7, frameon=False)
+    ax.legend(loc='upper center', fontsize=7, frameon=False, bbox_to_anchor=(0.5, 1.2))
     fig.set_size_inches(2.5, 2.5)
     fig.savefig('hardalupas_figure3b.pgf', bbox_inches='tight')
 

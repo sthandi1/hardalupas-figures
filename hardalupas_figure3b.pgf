@@ -29,7 +29,7 @@
 \begingroup%
 \makeatletter%
 \begin{pgfpicture}%
-\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{2.699278in}{2.732423in}}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{2.714975in}{3.008550in}}%
 \pgfusepath{use as bounding box, clip}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
@@ -41,9 +41,9 @@
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
 \pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{2.699278in}{0.000000in}}%
-\pgfpathlineto{\pgfqpoint{2.699278in}{2.732423in}}%
-\pgfpathlineto{\pgfqpoint{0.000000in}{2.732423in}}%
+\pgfpathlineto{\pgfqpoint{2.714975in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{2.714975in}{3.008550in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{3.008550in}}%
 \pgfpathclose%
 \pgfusepath{fill}%
 \end{pgfscope}%
@@ -584,8 +584,8 @@
 \definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.620661in}{2.452323in}}%
-\pgfpathlineto{\pgfqpoint{0.815105in}{2.452323in}}%
+\pgfpathmoveto{\pgfqpoint{0.684969in}{2.829823in}}%
+\pgfpathlineto{\pgfqpoint{0.879414in}{2.829823in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -611,7 +611,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{0.717883in}{2.452323in}%
+\pgfsys@transformshift{0.782192in}{2.829823in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -619,7 +619,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.892883in,y=2.418295in,left,base]{\color{textcolor}\sffamily\fontsize{7.000000}{8.400000}\selectfont \(\displaystyle \mathrm{d}_l=2.3\)mm, We=1054, VR=23.9}%
+\pgftext[x=0.957192in,y=2.795795in,left,base]{\color{textcolor}\sffamily\fontsize{7.000000}{8.400000}\selectfont \(\displaystyle \mathrm{d}_l=2.3\)mm, We=1054, VR=23.9}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetrectcap%
@@ -628,8 +628,8 @@
 \definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.620661in}{2.309623in}}%
-\pgfpathlineto{\pgfqpoint{0.815105in}{2.309623in}}%
+\pgfpathmoveto{\pgfqpoint{0.684969in}{2.687123in}}%
+\pgfpathlineto{\pgfqpoint{0.879414in}{2.687123in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -649,7 +649,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{0.717883in}{2.309623in}%
+\pgfsys@transformshift{0.782192in}{2.687123in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -657,7 +657,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.892883in,y=2.275595in,left,base]{\color{textcolor}\sffamily\fontsize{7.000000}{8.400000}\selectfont \(\displaystyle \mathrm{d}_l=1.1\)mm, We=1370, VR=25.2}%
+\pgftext[x=0.957192in,y=2.653095in,left,base]{\color{textcolor}\sffamily\fontsize{7.000000}{8.400000}\selectfont \(\displaystyle \mathrm{d}_l=1.1\)mm, We=1370, VR=25.2}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetrectcap%
@@ -666,8 +666,8 @@
 \definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{currentstroke}%
 \pgfsetdash{}{0pt}%
-\pgfpathmoveto{\pgfqpoint{0.620661in}{2.166923in}}%
-\pgfpathlineto{\pgfqpoint{0.815105in}{2.166923in}}%
+\pgfpathmoveto{\pgfqpoint{0.684969in}{2.544423in}}%
+\pgfpathlineto{\pgfqpoint{0.879414in}{2.544423in}}%
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
@@ -688,7 +688,7 @@
 \pgfusepath{stroke,fill}%
 }%
 \begin{pgfscope}%
-\pgfsys@transformshift{0.717883in}{2.166923in}%
+\pgfsys@transformshift{0.782192in}{2.544423in}%
 \pgfsys@useobject{currentmarker}{}%
 \end{pgfscope}%
 \end{pgfscope}%
@@ -696,7 +696,7 @@
 \definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
 \pgfsetstrokecolor{textcolor}%
 \pgfsetfillcolor{textcolor}%
-\pgftext[x=0.892883in,y=2.132895in,left,base]{\color{textcolor}\sffamily\fontsize{7.000000}{8.400000}\selectfont \(\displaystyle \mathrm{d}_l=1.1\)mm, We=1815, VR=28.8}%
+\pgftext[x=0.957192in,y=2.510395in,left,base]{\color{textcolor}\sffamily\fontsize{7.000000}{8.400000}\selectfont \(\displaystyle \mathrm{d}_l=1.1\)mm, We=1815, VR=28.8}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%
