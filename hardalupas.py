@@ -49,11 +49,11 @@ def figure_3b():
 
     # setting up plots
     fig, ax = plt.subplots()
-    ax.plot(line_1[:, 0], line_1[:, 1], color='black', marker='^',
+    ax.plot(line_1[:, 0], line_1[:, 1], color='black', marker='o',
             label='$\\mathrm{d}_l=1.1$mm, We=1700, VR=14.1')
-    ax.plot(line_2[:, 0], line_2[:, 1], color='black', marker='o',
+    ax.plot(line_2[:, 0], line_2[:, 1], color='black', marker='^',
             label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
-    ax.plot(line_3[:, 0], line_3[:, 1], color='black', marker='o',
+    ax.plot(line_3[:, 0], line_3[:, 1], color='black', marker='s',
             label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
 
     # setting axis limits
