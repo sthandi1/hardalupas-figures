@@ -7,7 +7,6 @@ Created on Wed Oct 23 13:23:15 2019
 
 import os
 import matplotlib.pyplot as plt
-import csv
 import numpy as np
 
 os.environ['PATH'] = os.environ['PATH'] + ':/Library/TeX/texbin'
