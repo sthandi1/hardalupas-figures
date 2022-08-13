@@ -32,7 +32,7 @@ def figure_3a():
     ax.set_ylim(80, 225)
     # labelling axis
     ax.set_xlabel('$\\frac{Z}{\mathrm{d}_l}$')
-    ax.set_ylabel('$D_{3,2}$')
+    ax.set_ylabel('$D_{3,2} (\\mu m)$')
     ax.legend(fontsize=7, frameon=False)
     fig.set_size_inches(2.5, 2.5)
     fig.savefig('hardalupas_figure3a.pgf', bbox_inches='tight')
@@ -50,11 +50,11 @@ def figure_3b():
     # setting up plots
     fig, ax = plt.subplots()
     ax.plot(line_1[:, 0], line_1[:, 1], color='black', marker='o',
-            label='$\\mathrm{d}_l=1.1$mm, We=1700, VR=14.1')
+            label='$\\mathrm{d}_l=2.3$mm, We=1054, VR=23.9')
     ax.plot(line_2[:, 0], line_2[:, 1], color='black', marker='^',
-            label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
+            label='$\\mathrm{d}_l=1.1$mm, We=1370, VR=25.2')
     ax.plot(line_3[:, 0], line_3[:, 1], color='black', marker='s',
-            label='$\\mathrm{d}_l=2.3$mm, We=2100, VR=13.3')
+            label='$\\mathrm{d}_l=1.1$mm, We=1815, VR=28.8')
 
     # setting axis limits
     ax.set_xlim(0, 35)
